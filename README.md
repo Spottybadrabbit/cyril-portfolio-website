@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Portfolio" src="./public/portfolio.gif" width="90%">
+<img alt="Portfolio" src="public/portfolio.gif" width="90%">
 </div>
 
 # Cyril Lutterodt — Portfolio

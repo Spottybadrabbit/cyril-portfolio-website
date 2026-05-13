@@ -1,31 +1,36 @@
 <div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
+<img alt="Portfolio" src="./public/portfolio.gif" width="90%">
 </div>
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+# Cyril Lutterodt — Portfolio
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+Personal portfolio for Cyril Lutterodt — software engineer, AI builder, Forbes 30 Under 30, and creator of the [Vibe Code with C](https://youtube.com/@dayinthelifeofatechie) series.
 
-# Features
+Live at [cyrillutterodt.com](https://cyrillutterodt.com)
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+Built with Next.js, [shadcn/ui](https://ui.shadcn.com/), and [Magic UI](https://magicui.design/), deployed on Vercel.
+
+# Stack
+
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui + Magic UI
+- Framer Motion
+- pnpm
 
 # Getting Started Locally
 
-1. Clone this repository to your local machine:
+1. Clone this repository:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/Spottybadrabbit/cyril-portfolio-website
    ```
 
-2. Move to the cloned directory
+2. Move to the directory:
 
    ```bash
-   cd portfolio
+   cd cyril-portfolio-website
    ```
 
 3. Install dependencies:
@@ -34,14 +39,14 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
    pnpm install
    ```
 
-4. Start the local Server:
+4. Start the dev server:
 
    ```bash
    pnpm dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+5. Edit content in [src/data/resume.tsx](./src/data/resume.tsx)
 
 # License
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+Licensed under the [MIT license](./LICENSE).

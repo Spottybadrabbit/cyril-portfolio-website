@@ -54,6 +54,52 @@ export default function Page() {
               </Markdown>
             </div>
           </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+            <div className="flex flex-col gap-5 rounded-xl border border-border bg-background/40 p-4 sm:p-5">
+              <div className="flex flex-col gap-3 text-sm">
+                <div className="flex items-start gap-2.5">
+                  <span aria-hidden>🧠</span>
+                  <p className="text-muted-foreground">
+                    <span className="font-semibold text-foreground">Personality:</span>{" "}
+                    {DATA.about.personality}
+                  </p>
+                </div>
+                <div className="flex items-start gap-2.5">
+                  <span aria-hidden>🔧</span>
+                  <p className="text-muted-foreground">
+                    <span className="font-semibold text-foreground">Tech Stack &amp; Tools:</span>{" "}
+                    {DATA.about.techStack.join(", ")}
+                  </p>
+                </div>
+                <div className="flex items-start gap-2.5">
+                  <span aria-hidden>💻</span>
+                  <p className="text-muted-foreground">
+                    <span className="font-semibold text-foreground">Platforms:</span>{" "}
+                    {DATA.about.platforms.join(", ")}
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2.5">
+                <p className="text-sm font-semibold text-foreground">
+                  Research &amp; Building Interests
+                </p>
+                <ul className="grid gap-2 sm:grid-cols-2">
+                  {DATA.about.interests.map((interest) => (
+                    <li
+                      key={interest}
+                      className="flex items-center gap-2 text-sm text-muted-foreground"
+                    >
+                      <span
+                        className="size-1.5 flex-none rounded-full bg-[#00FF88]"
+                        aria-hidden
+                      />
+                      {interest}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </BlurFade>
         </div>
       </section>
       <section id="work">

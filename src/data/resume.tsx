@@ -49,6 +49,31 @@ export const DATA = {
     "Currently shipping 30 AI apps in 30 days under the brand [Vibe Code with C](https://youtube.com/@dayinthelifeofatechie), " +
     "documenting every win, failure, and lesson in real time.",
   avatarUrl: "/me.png",
+  about: {
+    personality: "INFJ",
+    techStack: [
+      "Python",
+      "C++",
+      "TypeScript",
+      "JavaScript",
+      "React / Next.js",
+      "Node.js",
+      "PyTorch",
+      "TensorFlow",
+      "CUDA",
+      "ROS",
+      "Docker",
+      "Supabase",
+    ],
+    platforms: ["GNU/Linux", "Embedded Systems", "Edge Devices", "AWS / GCP", "Nebius", "Anyscale", "Vercel"],
+    interests: [
+      "Computer Vision & Robotics",
+      "Human-Centered AI & HCI",
+      "Embedded / Edge & Ubiquitous Computing",
+      "Machine Learning & Vision-Language Models",
+      "Applied AI Agents & Building in Public",
+    ],
+  },
   skills: [
     { name: "Python", icon: Python },
     { name: "C++", icon: Csharp },
@@ -250,6 +275,77 @@ export const DATA = {
 
   projects: [
     {
+      title: "Columbus.finance",
+      href: "https://columbus.finance",
+      dates: "2026",
+      active: true,
+      description:
+        "Dealflow management tool for investors. Ingests pitch decks from Gmail, standardises them with multimodal LLMs, and enables AI-powered chat over private pipeline data and public market data via Crunchbase and web crawling.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Claude API",
+        "Crunchbase API",
+        "Gmail API",
+        "Vercel",
+      ],
+      links: [],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Agents in the Wild",
+      href: "https://agentsinthewild.com",
+      dates: "2026",
+      active: true,
+      description:
+        "A cutting-edge platform for data retrieval and dynamic agent configuration with advanced API integration capabilities. Connects users with intelligent agents ready to perform tasks and generate value independently — featuring an agent marketplace, advanced web scraping, a wallet/credits system, real-time API exploration, and secure authentication backed by PostgreSQL.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "PostgreSQL",
+        "Drizzle ORM",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://agentsinthewild.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Vitalis",
+      href: "https://github.com/Spottybadrabbit/Vitalis",
+      dates: "2025",
+      active: true,
+      description:
+        "A personal health agent that runs LLMs fully on-device, built on Cactus for the Nothing Phone. " +
+        "Keeps health data private by doing inference locally — no cloud round-trips — for on-the-go vitals tracking and conversational health insights.",
+      technologies: [
+        "TypeScript",
+        "React Native",
+        "Cactus",
+        "Local LLMs",
+        "On-Device AI",
+        "Kotlin",
+        "Swift",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Spottybadrabbit/Vitalis",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Squanchy",
       href: "https://www.squanch.codes/",
       dates: "2025",
@@ -273,50 +369,6 @@ export const DATA = {
         },
       ],
       image: "/squanchy-preview.png",
-      video: "",
-    },
-    {
-      title: "Columbus.finance",
-      href: "https://columbus.finance",
-      dates: "2025",
-      active: true,
-      description:
-        "Dealflow management tool for investors. Ingests pitch decks from Gmail, standardises them with multimodal LLMs, and enables AI-powered chat over private pipeline data and public market data via Crunchbase and web crawling.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Claude API",
-        "Crunchbase API",
-        "Gmail API",
-        "Vercel",
-      ],
-      links: [],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Agents in the Wild",
-      href: "https://agentsinthewild.com",
-      dates: "2025",
-      active: true,
-      description:
-        "A cutting-edge platform for data retrieval and dynamic agent configuration with advanced API integration capabilities. Connects users with intelligent agents ready to perform tasks and generate value independently — featuring an agent marketplace, advanced web scraping, a wallet/credits system, real-time API exploration, and secure authentication backed by PostgreSQL.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "shadcn/ui",
-        "PostgreSQL",
-        "Drizzle ORM",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://agentsinthewild.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
       video: "",
     },
     {

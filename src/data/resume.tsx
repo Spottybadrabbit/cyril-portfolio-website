@@ -13,7 +13,6 @@ import {
   Microscope,
   Atom,
   Wrench,
-  Cloud,
 } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
@@ -32,6 +31,9 @@ import { Tailwind } from "@/components/ui/svgs/tailwind";
 import { JavaScript } from "@/components/ui/svgs/javascript";
 import { Supabase } from "@/components/ui/svgs/supabase";
 import { Vercel as VercelIcon } from "@/components/ui/svgs/vercel";
+import { Aws } from "@/components/ui/svgs/aws";
+import { GoogleCloud } from "@/components/ui/svgs/googleCloud";
+import { Nebius } from "@/components/ui/svgs/nebius";
 
 export const DATA = {
   name: "Cyril Lutterodt",
@@ -86,9 +88,9 @@ export const DATA = {
     { name: "PostgreSQL", icon: Postgresql },
     { name: "Supabase", icon: Supabase },
     { name: "Vercel", icon: VercelIcon },
-    { name: "AWS", icon: Cloud },
-    { name: "Google Cloud", icon: Cloud },
-    { name: "Nebius", icon: Cloud },
+    { name: "AWS", icon: Aws },
+    { name: "Google Cloud", icon: GoogleCloud },
+    { name: "Nebius", icon: Nebius },
     { name: "Computer Vision", icon: Eye },
     { name: "Deep Learning", icon: BrainCircuit },
     { name: "Artificial Intelligence", icon: Atom },

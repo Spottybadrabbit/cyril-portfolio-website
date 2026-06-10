@@ -40,7 +40,7 @@ former VC Managing Partner, Forbes 30 Under 30, and creator of the **Vibe Code w
 
 ## Owner Info
 Name: Cyril Lutterodt
-Email: [redacted]
+Email: (private — not committed to the repo)
 Location: London, United Kingdom
 LinkedIn: https://www.linkedin.com/in/cyril-lutterodt
 GitHub: (to be added)

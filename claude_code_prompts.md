@@ -104,7 +104,7 @@ PROMPT 9:
 - That BlurFade wrappers must always be preserved
 - That pnpm is the only package manager to use
 - That dark mode is the default theme
-- Owner: Cyril Lutterodt, [redacted], @dayinthelifeofatechie
+- Owner: Cyril Lutterodt, @dayinthelifeofatechie
 
 This file will help future Claude Code sessions understand the project without re-reading everything."
 

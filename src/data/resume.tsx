@@ -282,17 +282,18 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Built in 24 hours at a hackathon with two robotics engineers — 70+ commits, eight live integrations and roughly 300M tokens burned. " +
-        "A voice-native personal agent wiring together speech-to-text, speech-to-voice, and a live real-world demo integration. Open source.",
+        "A multimorbidity companion that works from a phone number alone — morning texts, calls when something shifts, and a live web record. " +
+        "Ask in iMessage for a health report and Homie texts back a signed, printable link for the clinician. It notices and routes; it never diagnoses or changes a dose. " +
+        "Built in 24 hours at the Encode Hub Consumer Health Hackathon in London with two robotics engineers — 70+ commits, eight live integrations, open source.",
       technologies: [
         "Next.js",
         "TypeScript",
-        "AI SDK",
-        "OpenAI",
+        "Supabase",
+        "Cloudflare Workers",
+        "Hono",
+        "Vapi",
         "ElevenLabs",
-        "Eve",
-        "Speech-to-Text",
-        "Brevo",
+        "OpenAI",
         "Vercel",
       ],
       links: [

@@ -308,7 +308,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/homie-preview.png",
       video: "",
     },
     {
@@ -332,7 +332,7 @@ export const DATA = {
     },
     {
       title: "Agents in the Wild",
-      href: "https://agentsinthewild.com",
+      href: "https://www.agentsinthewild.com/",
       dates: "2026",
       active: true,
       description:
@@ -348,7 +348,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://agentsinthewild.com",
+          href: "https://www.agentsinthewild.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],

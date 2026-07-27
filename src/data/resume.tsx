@@ -277,6 +277,40 @@ export const DATA = {
 
   projects: [
     {
+      title: "Homie",
+      href: "https://meet-homie.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Built in 24 hours at a hackathon with two robotics engineers — 70+ commits, eight live integrations and roughly 300M tokens burned. " +
+        "A voice-native personal agent wiring together speech-to-text, speech-to-voice, and a live real-world demo integration. Open source.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "AI SDK",
+        "OpenAI",
+        "ElevenLabs",
+        "Eve",
+        "Speech-to-Text",
+        "Brevo",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://meet-homie.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/HahaBill/Homie",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Columbus.finance",
       href: "https://columbus.finance",
       dates: "2026",

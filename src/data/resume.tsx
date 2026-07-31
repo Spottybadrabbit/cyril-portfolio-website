@@ -164,8 +164,8 @@ export const DATA = {
       end: "Present",
       description:
         "Shipping 30 AI apps in 30 days — publicly, daily, documented. " +
-        "Built Squanchy (squanchy.codes) — an AI tool that converts Intercom bug reports into structured Linear issues and PR drafts. " +
-        "Won 1st place at the Intercom × Vercel 'Prompt to Production' Hackathon in London. " +
+        "Built Squanchy (squanch.codes) — an AI tool that converts Intercom bug reports into structured Linear issues and PR drafts. Won 1st place at the Intercom × Vercel 'Prompt to Production' Hackathon in London. " +
+        "Since then: Agents in the Wild, a marketplace and deployment layer for autonomous agents; Homie, a multimorbidity health companion that works from a phone number alone, built in 24 hours at the Encode Hub Consumer Health Hackathon; and GOLAZO, a World Cup fan game running on the live TxLINE feed for the Superteam × TxODDS hackathon. " +
         "Growing the @dayinthelifeofatechie brand across Instagram, TikTok, YouTube, and LinkedIn with daily build logs, tutorials, and founder content. " +
         "Series tag: #VibeCodeWithC",
     },
